@@ -3,8 +3,8 @@ import os
 import pytest
 from transformers import AutoModelForQuestionAnswering, AutoTokenizer
 
-from transformers_interpret import QuestionAnsweringExplainer
-from transformers_interpret.errors import (
+from interpret_changes import QuestionAnsweringExplainer
+from interpret_changes.errors import (
     AttributionTypeNotSupportedError,
     InputIdsNotCalculatedError,
 )

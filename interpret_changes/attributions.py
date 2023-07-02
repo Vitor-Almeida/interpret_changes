@@ -5,7 +5,7 @@ import torch.nn as nn
 from captum.attr import LayerIntegratedGradients
 from captum.attr import visualization as viz
 
-from transformers_interpret.errors import AttributionsNotCalculatedError
+from interpret_changes.errors import AttributionsNotCalculatedError
 
 
 class Attributions:

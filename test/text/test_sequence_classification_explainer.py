@@ -1,11 +1,11 @@
 import pytest
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
-from transformers_interpret import (
+from interpret_changes import (
     PairwiseSequenceClassificationExplainer,
     SequenceClassificationExplainer,
 )
-from transformers_interpret.errors import (
+from interpret_changes.errors import (
     AttributionTypeNotSupportedError,
     InputIdsNotCalculatedError,
 )
