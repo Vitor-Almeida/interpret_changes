@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "transformers-interpret"
+name = "interpret_changes"
 version = "0.10.0"
 description = "Model explainability that works seamlessly with 🤗 transformers. Explain your transformers model in just 2 lines of code."
 readme = "README.md"
