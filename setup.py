@@ -29,7 +29,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Charles Pierse",
     author_email="charlespierse@gmail.com",
-    url="https://github.com/cdpierse/transformers-interpret",
+    url="https://github.com/Vitor-Almeida/interpret_changes",
     keywords=[
         "machine learning",
         "natural language proessing",
