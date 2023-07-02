@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 
 setup(
-    name="transformers-interpret",
+    name="interpret_changes",
     packages=find_packages(
         exclude=[
             "*.tests",
